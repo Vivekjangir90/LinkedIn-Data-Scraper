@@ -67,10 +67,9 @@ def get_profile_data(api, user):
     return personal_data
     
 
-client_user_name ="presidential918@desertsundesigns.com"
-client_user_password = "presidential918@d"
-# client_user_name = input("Enter your LinkedIn username or Email address: ")
-# client_user_password = input("Enter your LinkedIn Password: ")
+
+client_user_name = input("Enter your LinkedIn username or Email address: ")
+client_user_password = input("Enter your LinkedIn Password: ")
 find_user_first_name = input("Enter first name: ")
 find_user_last_name = input("Enter last name: ")
 
